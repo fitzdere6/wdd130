@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #5ca0d7;
+    text-align: center;
+}
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1 {
+    font-family: sans-serif;
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+#heading-quote {
+    color: white;
+}
+#heading-speaker {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ol {
+    display: table;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+}
+li {
+    text-align: left;
+    margin: 10px;
+}
+img {
+    width: 50%;
+}
+blockquote {
+    color: white;
+    font-size: 1.7em;
+}
+figcaption {
+    font-family: sans-serif;
+    margin: 0;
+}
+#caption {
+    font-family: sans-serif;
+    margin: 0;
+}
