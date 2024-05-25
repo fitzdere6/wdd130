@@ -94,6 +94,9 @@ main section img {
     height: 725px;
     background-color: skyblue;
 }
+.mountains {
+    margin: 100px 0;
+}
 .msg {
     background-color: #D40000;
     line-height: 1.5em;
