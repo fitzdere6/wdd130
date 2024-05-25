@@ -23,7 +23,7 @@ nav a{
     text-align: center;
     color: #D40000;
     text-decoration: none;
-    padding: 40px;
+    padding: 0 40px;
 }
 nav a:hover {
     background-color: #D40000 ;
