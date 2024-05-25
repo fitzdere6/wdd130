@@ -1,5 +1,11 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
     background-color: #fcfbfb;
+    font-family: "Noto Sans", "Verdana", "Arial", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #content {
     max-width: 1600px;
@@ -11,11 +17,13 @@ header {
 }
 .logo {
     width: 200px;
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     color: #D40000;
     text-decoration: none;
+    padding: 40px;
 }
 nav a:hover {
     background-color: #D40000 ;
@@ -29,12 +37,19 @@ nav a:hover {
 }
 .home-title {
     color: #D40000;
+    font-family: "Ubuntu", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: #D40000;
 }
 #hero-msg h4 {
     text-align: center;
+    font-family: "Noto Sans", "Verdana", "Arial", sans-serif;
 }
 .button-box {
     text-align: center;
@@ -43,6 +58,11 @@ h4 {
     background-color: #eeff00;
     color: #D40000;
     text-decoration: none;
+    font-family: "Noto Sans", "Verdana", "Arial", sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #D40000;
@@ -54,8 +74,21 @@ main {
 section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 .icon {
     width: 80px;
+    padding-top: 15px;
+}
+.home-grid h2 {
+    font-family: "Ubuntu", "Helvetica Neue", "Arial", sans-serif;
+}
+.card-img {
+    border: 10px solid black;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 #background {
     height: 725px;
@@ -63,22 +96,30 @@ section {
 }
 .msg {
     background-color: #D40000;
+    line-height: 1.5em;
+    padding: 30px;
 }
 .msg h2 {
     color: white;
 }
 .msg p {
     color: white;
+    font-family: "Noto Sans", "Verdana", "Arial", sans-serif;
+    font-size: 0.7em;
+    padding-bottom: 10px;
 }
 footer {
     background-color: #eeff00;
     color: #D40000;
+    padding: 30px 50px;
+    margin-top: 150px;
 }
 footer a {
     color: #D40000;
     text-decoration: none;
 }
 footer p {
+    font-family: "Noto Sans", "Verdana", "Arial", sans-serif;
     font-size: 1.25em;
 }
 footer p a:hover {
@@ -86,4 +127,7 @@ footer p a:hover {
 }
 footer a:hover {
     color: white;
+}
+footer .social img {
+    padding-top: 15px;
 }
