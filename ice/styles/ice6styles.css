@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 1.7em;
+}
+h2 {
+    font-size: 1.7em;
+}
+.colored-background {
+    background-color: #b9b8b9;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    float: right;
+}
+.image-background {
+    background-image: url(https://byui-wdd.github.io/wdd130/ice/w06_cherries.png);
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  .text-overlay h1 {
+    font-size: 100px;
+  }
+  .text-overlay h2 {
+    font-size: 50px;
+    color: red;
+    text-align: right;
+  }
