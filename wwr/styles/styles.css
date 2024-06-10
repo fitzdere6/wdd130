@@ -26,13 +26,15 @@ header {
     width: 200px;
     padding-top: 5px;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a{
     text-align: center;
     color: #D40000;
     text-decoration: none;
     padding: 0 40px;
-    display: flex;
-    justify-content: space-around;
 }
 nav a:hover {
     background-color: #D40000 ;
@@ -143,7 +145,7 @@ main section img {
     grid-row: 2/3;
 }
 #background {
-    height: 725px;
+    height: 950px;
     background-color: skyblue;
     grid-column: 1/11;
     grid-row: 4/9;
