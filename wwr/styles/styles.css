@@ -198,6 +198,7 @@ footer a:hover {
 }
 footer .social img {
     padding-top: 15px;
+    width: 50px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
