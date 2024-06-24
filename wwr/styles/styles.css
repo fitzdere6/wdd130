@@ -264,6 +264,26 @@ footer .social img {
         display: block;
         margin: 0 auto;
     }
+    #about-grid {
+        display: block;
+    }
+    #about-title {
+        color: #D40000;
+        font-family: "Ubuntu", "Helvetica Neue", "Arial", sans-serif;
+        font-size: 1.8em;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #about-text {
+        font-size: 0.95em;
+        margin-left: 20px;
+    }
+    #mountain-img {
+        grid-column: 5/8;
+        grid-row: 2/6;
+        width: 60;
+        text-align: center;
+    }
     footer {
         margin-top: 25px;
     }
