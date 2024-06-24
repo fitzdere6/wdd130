@@ -173,6 +173,31 @@ main section img {
     font-size: 0.7em;
     padding-bottom: 10px;
 }
+#about-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+#about-title {
+    color: #D40000;
+    font-family: "Ubuntu", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.8em;
+    margin-top: 20px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+#about-text {
+    grid-column: 1/5;
+    grid-row: 2/6;
+    font-size: 0.95em;
+    margin-left: 20px;
+}
+#mountain-img {
+    grid-column: 5/8;
+    grid-row: 2/6;
+    width: 90%;
+}
 footer {
     background-color: #eeff00;
     color: #D40000;
